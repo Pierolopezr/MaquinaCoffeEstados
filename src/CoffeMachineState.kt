@@ -7,5 +7,6 @@
         }
         object MakingCoffee : CoffeeMachineState()
         data class ServingCoffee(val brand: String) : CoffeeMachineState()
+        data class IntroduzcoDinero(val dinero: Boolean) : CoffeeMachineState()
         data class Error(val message: String) : CoffeeMachineState()
     }
